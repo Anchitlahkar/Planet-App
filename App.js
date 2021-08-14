@@ -4,16 +4,15 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./Screens/Home";
 import DetailsScreen from "./Screens/Details";
+import name from "./Screens/name";
 
 export default function App() {
-  return (
-    <AppContainer/>
-  );
+  return <AppContainer />;
 }
 
 const AppStackNavigator = createStackNavigator(
   {
-    Home: {
+   Home: {
       screen: HomeScreen,
       navigationOptions: {
         headerShown: false,
@@ -27,4 +26,4 @@ const AppStackNavigator = createStackNavigator(
   { initialRouteName: "Home" }
 );
 
-const AppContainer = createAppContainer(AppStackNavigator)
+const AppContainer = createAppContainer(AppStackNavigator);

@@ -10,7 +10,6 @@ export default class HomeScreen extends React.Component {
       list_data: [],
       // url: "http://cors-anywhere.herokuapp.com/https://aeaa096fe062.ngrok.io/",      //works on web
       url: "https://aeaa096fe062.ngrok.io/",                                            //works on mobile
-
     };
   }
 
